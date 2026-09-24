@@ -325,33 +325,7 @@ flowchart LR
     I --> L
 ```
 
-# 🎙️ AI Interview Flow
 
-```mermaid
-sequenceDiagram
-
-    participant U as 👤 User
-    participant F as ⚛️ React
-    participant B as 🚀 Express Backend
-    participant AI as 🧠 AI Service
-    participant DB as 🍃 MongoDB
-
-    U->>F: Configure Interview
-    F->>B: Create Interview
-    B->>AI: Generate Question
-    AI-->>B: Interview Question
-    B-->>F: Return Question
-    F-->>U: Display / Speak Question
-    U->>F: Submit Voice Answer
-    F->>B: Submit Answer
-    B->>AI: Evaluate Answer
-    AI-->>B: Score + Feedback
-    B->>DB: Store Evaluation
-    B-->>F: Return Feedback
-    F-->>U: Display Evaluation
-    U->>F: Continue Interview
-    F->>B: Request Next Question
-```
 
 ---
 
