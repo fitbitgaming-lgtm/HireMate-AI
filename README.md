@@ -262,3 +262,4 @@ flowchart TB
     AI --> API
 
     API --> UI
+<img width="2596" height="734" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/08b131c2-187c-4edf-8112-bea1c597e238" />
