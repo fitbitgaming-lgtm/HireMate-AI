@@ -251,49 +251,28 @@ HireMate follows a separated **frontend + backend architecture**.
 ```mermaid
 flowchart TB
 
-    USER[👤 Candidate]
+    USER["👤 Candidate"]
+    FE["⚛️ React Frontend"]
+    AUTH["🔐 Authentication"]
+    BE["🚀 Express REST API"]
+    CTRL["🎮 Controllers"]
+    SVC["⚙️ Backend Services"]
+    AI["🧠 OpenRouter AI"]
+    DB[("🍃 MongoDB")]
+    PAY["💳 Razorpay"]
 
-    FRONTEND[⚛️ React Frontend]
-
-    AUTH[🔐 Authentication]
-
-    API[🚀 Express REST API]
-
-    CONTROLLERS[🎮 Controllers]
-
-    SERVICES[⚙️ Services]
-
-    AI[🧠 OpenRouter AI]
-
-    DB[(🍃 MongoDB)]
-
-    PAYMENT[💳 Razorpay]
-
-    USER --> FRONTEND
-
-    FRONTEND --> AUTH
-    FRONTEND --> API
-
-    API --> CONTROLLERS
-
-    CONTROLLERS --> SERVICES
-    CONTROLLERS --> DB
-
-    SERVICES --> AI
-    SERVICES --> PAYMENT
-
-    AUTH --> API
-
-    DB --> API
-    AI --> API
-
-
-
-
---
-
-
-
+    USER --> FE
+    FE --> AUTH
+    FE --> BE
+    AUTH --> BE
+    BE --> CTRL
+    CTRL --> SVC
+    CTRL --> DB
+    SVC --> AI
+    SVC --> PAY
+    DB --> BE
+    AI --> BE
+    BE --> FE
 ```
 
 
