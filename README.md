@@ -1,6 +1,4 @@
-<div align="center">
-
-<img src="./hiremate-logo.png" width="90" alt="HireMate Logo"/>
+LIVE LINK -- > https://hiremate-ai-frontend.onrender.com
 
 # HireMate
 
