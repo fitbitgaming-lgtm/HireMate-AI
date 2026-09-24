@@ -218,7 +218,7 @@ The analytics dashboard provides detailed performance insights after an intervie
 
 ![Analytics Dashboard](./screenshots/06-analytics-dashboard.png)
 
----
+--
 
 # 🏗️ System Architecture
 
