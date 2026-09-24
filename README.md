@@ -222,7 +222,7 @@ The analytics dashboard provides detailed performance insights after an intervie
 
 # 🏗️ System Architecture
 
-```mermaid
+
 flowchart TB
 
     USER[👤 Candidate]
