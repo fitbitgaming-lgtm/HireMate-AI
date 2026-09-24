@@ -293,36 +293,7 @@ flowchart TB
 --
 
 
-# 🔄 Interview Lifecycle
 
-```mermaid
-flowchart LR
-
-    A[⚙️ Configure Interview]
-    B[📄 Resume Analysis]
-    C[🧠 Generate Interview]
-    D[❓ AI Question]
-    E[🎙️ Voice Answer]
-    F[🤖 AI Evaluation]
-    G[💬 Feedback]
-    H[➡️ Next Question]
-    I[🏁 Finish Interview]
-    J[📊 Analytics]
-    K[📄 PDF Report]
-    L[📜 Interview History]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> D
-    H --> I
-    I --> J
-    J --> K
-    I --> L
 ```
 
 
